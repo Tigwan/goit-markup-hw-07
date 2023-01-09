@@ -613,10 +613,6 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 display: block;
 }
 
-.footer-form-block {
-  margin-top: 72px;
-}
-
 .footer-form-title {
   margin-bottom: 16px;
     font-weight: 700;
@@ -964,7 +960,13 @@ text-align: left;
     .modal {
       width: 392px;
     }
+.feature-point {
+  margin-bottom: 72px;
+}
 
+.feature-point:last-child {
+margin-bottom: 0;
+}
 }
 
 @media screen and (max-width: 1200px) {
@@ -1194,6 +1196,15 @@ text-align: left;
 
 .control:not(:last-child) {
   margin-right: 24px;
+}
+
+.portfolio-cart-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+  
+    color: var(--color-dark);
 }
 
 .gallery {
