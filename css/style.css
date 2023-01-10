@@ -76,6 +76,8 @@ img {
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    z-index: 5;
 }
 
 .container {
@@ -384,13 +386,17 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 
 .card-title {
   font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--color-dark);
   margin-top: 0px;
   margin-bottom: 8px;
 }
+/* .card-title {
+  font-size: 36px;
+  line-height: 1.11;
+} */
 
 .card-text {
     font-weight: 700;
@@ -401,6 +407,9 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
     color: var(--color-text);
 }
 /*  */
+.services {
+  padding-bottom: 120px;
+}
 .section-title {
   font-weight: 700;
   font-size: 36px;
@@ -524,7 +533,7 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   margin-bottom: 72px;
 }
 /*  */
-/* FOOTER */
+/* FOOTER ======================================================================= */
 
 .foot {
   background-color: var(--color-dark);
@@ -533,8 +542,8 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 }
 
 .coda {
-  margin-left: 80px;
   width: 268px;
+  margin-left: 80px;
   margin-right: 80px;
   text-align: center;
 }
@@ -611,6 +620,10 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 
 .footer-form {
 display: block;
+}
+
+.footer-form-block {
+  margin-top: 72px;
 }
 
 .footer-form-title {
@@ -811,11 +824,6 @@ margin: 0 auto;
   height: 88px;
 }
 
-.card-title {
-font-size: 36px;
-line-height: 1.11;
-}
-
 .customers {
   width: 100%;
   justify-content: center;
@@ -833,6 +841,17 @@ line-height: 1.11;
 
 .coda {
   margin-left: 0;
+  text-align: left;
+}
+
+/* .coda {
+  margin-left: 80px;
+  width: 268px;
+  margin-right: 80px;
+  text-align: center;
+} */
+.media {
+  text-align: left;
 }
 
 .footer-form {
@@ -910,6 +929,10 @@ text-align: left;
   padding: 0;
 }
 
+.footer-form-block {
+  margin-top: 0;
+}
+
 .footer-form-title {
   margin-top: 0;
 }
@@ -921,6 +944,10 @@ text-align: left;
 
 .media {
   margin-right: 80px;
+}
+
+.coda {
+  margin-bottom: 0;
 }
 
 .card-text {
@@ -966,6 +993,10 @@ text-align: left;
 
 .feature-point:last-child {
 margin-bottom: 0;
+}
+
+.card-title {
+  text-align: center;
 }
 }
 
