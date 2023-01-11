@@ -112,11 +112,13 @@ img {
   transition: color var(--transition-duration-and-funk);
   text-decoration: none;
   color: var(--color-text);
+  font-weight: 700;
 }
 
 .link-under {
   color: var(--color-primary-brand);
   text-decoration: none;
+  font-weight: 700;
 }
 
 .link-under::after {
