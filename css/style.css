@@ -117,7 +117,6 @@ img {
 .link-under {
   color: var(--color-primary-brand);
   text-decoration: none;
-  /* margin-top: 24px; */
 }
 
 .link-under::after {
@@ -473,7 +472,6 @@ screen and (min-width: 1200px) and (min-resolution: 2dppx) {
 }
 
 .colleagues {
-  /* width: 264px; */
   margin: 0 auto;
   text-align: center;
   padding: 0;
@@ -856,12 +854,6 @@ margin: 0 auto;
   text-align: left;
 }
 
-/* .coda {
-  margin-left: 80px;
-  width: 268px;
-  margin-right: 80px;
-  text-align: center;
-} */
 .media {
   text-align: left;
 }
